@@ -467,6 +467,7 @@ public class Home extends AppCompatActivity {
                 createCategoryForWebsite(snapshot.child("newsRoom").child("3newChannelName").getValue().toString(),R.drawable.newico,snapshot.child("newsRoom").child("3newChannel1Url").getValue().toString());
                 createCategoryForWebsite(snapshot.child("newsRoom").child("4newChannelName").getValue().toString(),R.drawable.newico,snapshot.child("newsRoom").child("4newChannel1Url").getValue().toString());
                 createCategoryForWebsite(snapshot.child("newsRoom").child("5newChannelName").getValue().toString(),R.drawable.newico,snapshot.child("newsRoom").child("5newChannel1Url").getValue().toString());
+
                 rateUsOnGooglePlay();
                 MyAdapter adapter = new MyAdapter();
                 mainGrid.setExpanded(true);
