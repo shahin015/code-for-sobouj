@@ -12,6 +12,7 @@
         android:layout_height="match_parent"
         app:neumorph_shadowColorDark="@color/shadow_color_bottom"
         app:neumorph_shadowColorLight="@color/shadow_color_top"
+        android:layout_margin="@dimen/_2mdp"
         >
 
 
@@ -29,15 +30,15 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal|center_vertical"
-            android:layout_margin="16dp"
+            android:layout_margin="@dimen/_10mdp"
             android:orientation="vertical">
 
             <LinearLayout
-                android:layout_width="60dp"
-                android:layout_height="60dp"
+                android:layout_width="@dimen/_60mdp"
+                android:layout_height="@dimen/_60mdp"
                 android:layout_gravity="center_horizontal"
                 android:orientation="horizontal"
-                android:padding="5dp"
+                android:padding="@dimen/_2mdp"
                 >
 
                 <ImageView
@@ -55,7 +56,7 @@
                 android:id="@+id/tvTitle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="0dp"
+                android:layout_marginTop="@dimen/_10mdp"
                 android:gravity="center_horizontal"
                 android:text="Cat Title Here"
                 android:textAlignment="center"

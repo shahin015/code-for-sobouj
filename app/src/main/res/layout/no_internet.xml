@@ -5,11 +5,11 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="#FFFFFF"
-    android:paddingLeft="15dp"
-    android:paddingRight="15dp"
-    android:paddingTop="12dp"
-    android:paddingBottom="12dp"
-    android:layout_marginBottom="10dp"
+    android:paddingLeft="@dimen/_15mdp"
+    android:paddingRight="@dimen/_15mdp"
+    android:paddingTop="@dimen/_12mdp"
+    android:paddingBottom="@dimen/_12mdp"
+    android:layout_marginBottom="@dimen/_10mdp"
     >
 
 
@@ -17,7 +17,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="@dimen/_20mdp"
         >
 
 
@@ -29,7 +29,7 @@
             android:textColor="#CC000000"
             android:textSize="25sp"
             android:textStyle="normal"
-            android:layout_marginLeft="2dp"
+            android:layout_marginLeft="@dimen/_2mdp"
             />
 
 
@@ -42,9 +42,9 @@
             android:textColor="#99000000"
             android:textSize="14sp"
             android:textStyle="normal"
-            android:layout_marginTop="2dp"
-            android:layout_marginBottom="2dp"
-            android:layout_marginLeft="2dp"
+            android:layout_marginTop="@dimen/_2mdp"
+            android:layout_marginBottom="@dimen/_2mdp"
+            android:layout_marginLeft="@dimen/_2mdp"
             />
 
 
@@ -52,13 +52,13 @@
         <com.airbnb.lottie.LottieAnimationView
             android:id="@+id/lottieNoNet"
             android:layout_width="match_parent"
-            android:layout_height="280dp"
+            android:layout_height="@dimen/_280mdp"
             android:scaleType="centerInside"
             app:lottie_autoPlay="true"
             app:lottie_loop="true"
             app:lottie_rawRes="@raw/no_internet"
             app:lottie_repeatMode="restart"
-            android:layout_marginTop="12dp"
+            android:layout_marginTop="@dimen/_12mdp"
             />
 
 

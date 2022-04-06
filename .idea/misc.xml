@@ -7,10 +7,12 @@
         <entry key="..\:/Master Code/app/src/main/res/drawable/bottom_shade22.xml" value="0.1" />
         <entry key="..\:/Master Code/app/src/main/res/drawable/item_back1.xml" value="0.1" />
         <entry key="..\:/Master Code/app/src/main/res/drawable/splash.xml" value="0.1505" />
-        <entry key="..\:/Master Code/app/src/main/res/layout/activity_home.xml" value="0.1" />
+        <entry key="..\:/Master Code/app/src/main/res/layout/activity_home.xml" value="0.15" />
         <entry key="..\:/Master Code/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Master Code/app/src/main/res/layout/drawer_header.xml" value="0.12128418549346016" />
         <entry key="..\:/Master Code/app/src/main/res/layout/grid_item.xml" value="0.11684782608695653" />
         <entry key="..\:/Master Code/app/src/main/res/layout/grid_item2.xml" value="0.11684782608695653" />
+        <entry key="..\:/Master Code/app/src/main/res/layout/nid_help_line.xml" value="0.24042879019908117" />
         <entry key="..\:/Master Code/app/src/main/res/layout/no_internet.xml" value="0.1" />
         <entry key="..\:/Master Code/app/src/main/res/layout/pdf_page.xml" value="0.1" />
         <entry key="..\:/Master Code/app/src/main/res/layout/player.xml" value="0.1" />
@@ -18,6 +20,8 @@
         <entry key="..\:/Master Code/app/src/main/res/layout/test.xml" value="0.1" />
         <entry key="..\:/Master Code/app/src/main/res/layout/video_item.xml" value="0.1" />
         <entry key="..\:/Master Code/app/src/main/res/layout/web_browser.xml" value="0.1" />
+        <entry key="..\:/Master Code/app/src/main/res/menu/nav_dware.xml" value="0.18" />
+        <entry key="..\:/Master Code/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.114" />
         <entry key="..\:/Master Code/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1025" />
       </map>
     </option>

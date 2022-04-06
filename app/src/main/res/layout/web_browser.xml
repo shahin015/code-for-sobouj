@@ -20,7 +20,7 @@
             <View
                 android:id="@+id/view1_profile"
                 android:layout_width="match_parent"
-                android:layout_height="70dp"
+                android:layout_height="@dimen/_70mdp"
                 android:layout_below="@id/layMyProfile"
                 android:background="@color/web_top" />
 
@@ -37,16 +37,15 @@
 
                 <ImageView
                     android:id="@+id/imgBack"
-                    android:layout_width="40dp"
-                    android:layout_height="40dp"
-                    android:src="@drawable/goback_white"
+                    android:layout_width="@dimen/_40mdp"
+                    android:layout_height="@dimen/_40mdp"                    android:src="@drawable/goback_white"
                     android:scaleType="centerInside"
                     android:layout_centerVertical="true"
                     android:layout_alignParentLeft="true"
                     android:clickable="true"
                     android:foreground="?attr/selectableItemBackgroundBorderless"
                     android:tag="back"
-                    android:paddingTop="8dp"
+                    android:paddingTop="@dimen/_8mdp"
                     />
 
                 <TextView
@@ -57,7 +56,7 @@
                     android:gravity="left|center"
                     android:textStyle="normal"
                     android:textColor="#FFFFFF"
-                    android:paddingTop="5dp"
+                    android:paddingTop="@dimen/_5mdp"
                     android:textSize="18sp"
 
                     />
@@ -73,12 +72,12 @@
                 android:layout_height="match_parent"
                 android:layout_below="@id/layMyProfile"
                 android:layout_alignParentBottom="true"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="@dimen/_10mdp"
                 android:background="@drawable/m_rectangle_back"
-                android:minHeight="120dp"
+                android:minHeight="@dimen/_120mdp"
                 android:orientation="vertical"
-                android:layout_marginLeft="5dp"
-                android:layout_marginRight="5dp"
+                android:layout_marginLeft="@dimen/_5mdp"
+                android:layout_marginRight="@dimen/_5mdp"
                 >
 
 
@@ -90,7 +89,7 @@
                     app:lottie_rawRes="@raw/loading"
                     app:lottie_loop="true"
                     app:lottie_autoPlay="true"
-                    android:padding="15dp"
+                    android:padding="@dimen/_15mdp"
                     />
 
 

@@ -27,8 +27,8 @@
         <ImageView
             android:id="@+id/imgPrevious"
             android:layout_width="fill_parent"
-            android:layout_height="35dp"
-            android:padding="5dp"
+            android:layout_height="@dimen/_35mdp"
+            android:padding="@dimen/_5mdp"
             android:src="@drawable/prev"
             android:layout_weight="25"
             android:clickable="true"
@@ -38,8 +38,8 @@
         <ImageView
             android:id="@+id/imgPlayPause"
             android:layout_width="fill_parent"
-            android:layout_height="35dp"
-            android:padding="5dp"
+            android:layout_height="@dimen/_35mdp"
+            android:padding="@dimen/_5mdp"
             android:src="@drawable/buffer"
             android:layout_weight="25"
             android:clickable="true"
@@ -49,8 +49,8 @@
         <ImageView
             android:id="@+id/imgNext"
             android:layout_width="fill_parent"
-            android:layout_height="35dp"
-            android:padding="5dp"
+            android:layout_height="@dimen/_35mdp"
+            android:padding="@dimen/_5mdp"
             android:layout_weight="25"
             android:src="@drawable/next"
             android:clickable="true"
@@ -60,8 +60,8 @@
         <ImageView
             android:id="@+id/imngClosePlayer"
             android:layout_width="fill_parent"
-            android:layout_height="35dp"
-            android:padding="5dp"
+            android:layout_height="@dimen/_35mdp"
+            android:padding="@dimen/_5mdp"
             android:src="@drawable/cross"
             android:layout_weight="25"
             android:clickable="true"

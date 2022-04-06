@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    >
+
+    <item android:id="@+id/sharewithfriend"
+        android:title="Shre With your Friend"
+        android:icon="@drawable/ic_share"
+
+
+        />
+    <item android:id="@+id/give_me_rating"
+        android:title="Give me a rating"
+        android:icon="@drawable/ic_rating"
+
+        />
+    <item android:id="@+id/privacy_policy"
+        android:title="Privacy Policy"
+        android:icon="@drawable/ic_privacy_tip_2"
+
+        />
+    <item android:id="@+id/faq"
+        android:title="FAQ"
+        android:icon="@drawable/ic_faq"
+
+        />
+    <item android:id="@+id/likeUs"
+        android:title="Like us"
+        android:icon="@drawable/ic_like"
+
+        />
+    <item android:id="@+id/termsand_condition"
+        android:title="Terms and Conditions"
+        android:icon="@drawable/ic_tems"
+
+        />
+    <item android:id="@+id/contuct_with_us"
+        android:title="Contuct with Us"
+        android:icon="@drawable/ic_baseline_contacts_24"
+                />
+
+    <item android:id="@+id/about"
+        android:title="About"
+        android:icon="@drawable/ic_about"
+        />
+    <item android:id="@+id/moreapp"
+        android:title="More Apps"
+        android:icon="@drawable/ic_moreapps"
+        />
+
+
+
+</menu>

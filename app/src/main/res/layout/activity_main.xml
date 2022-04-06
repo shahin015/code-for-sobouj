@@ -15,7 +15,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_alignParentTop="true"
-        android:layout_alignParentBottom="true"
+       android:layout_above="@id/startAppBanner"
         >
 
         <!-- This layout will contain items by JAVA programatically -->
@@ -62,8 +62,7 @@
                 android:layout_marginBottom="60dp"
                 android:orientation="vertical"
                 >
-
-                <com.shahin.rahmanakash.ExpandableHeightGridView
+                <com.shahin.deeloper.ExpandableHeightGridView
                     android:id="@+id/mainGrid"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -78,22 +77,12 @@
                     android:verticalSpacing="10dp"
                     />
 
-
             </LinearLayout>
 
 
         </LinearLayout>
     </ScrollView>
     <!--- **************************************** -->
-
-
-
-
-
-
-
-
-
 
     <LinearLayout
         android:id="@+id/layPlayer"
@@ -108,6 +97,15 @@
             />
 
     </LinearLayout>
+
+    <com.startapp.sdk.ads.banner.Banner
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/startAppBanner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        ads:adSize="BANNER" />
 
 
 
